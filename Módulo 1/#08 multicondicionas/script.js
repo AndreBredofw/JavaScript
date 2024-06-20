@@ -6,8 +6,10 @@ let idade = 18
     }
         se a idade for maior ou igual a 18 irá entrar no primeiro if, em seguida irá entrar no segundo if onde analisará se a idade é menor que 60, caso seja, exibirá mensagem no console
  } */
-
-        if (idade >=18 && idade < 60) {
-            console.log("Você é um adulto!")
-            
+        if (idade < 18) {
+            console.log("Você é uma crinaça!")
+        } else if (idade >=18 && idade < 60) {
+            console.log("Você é um adulto!")            
+        } else if (idade >= 60) {
+            console.log("Você é um idoso!")
         }
