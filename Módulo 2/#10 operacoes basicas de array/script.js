@@ -4,7 +4,11 @@ let ingredientes =[
     'ovo',
     'sal'
 ];
-ingredientes [4] = 'cebola'
-
+ingredientes.push('cebola')
+/*
+.pop remove o ultimo item do array
+.shift remove o primeiro item do array
+*/
+console.log(ingredientes)
 
 console.log(`Total de ingredientes: ${ingredientes.length}`)
