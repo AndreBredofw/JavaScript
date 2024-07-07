@@ -1,3 +1,4 @@
+
 personagem = {
     nome : 'André',
     idade : 18,
@@ -14,5 +15,5 @@ personagem = {
 }
 
 console.log(`${personagem.nome} tem ${personagem.idade} anos e reside no ${personagem.pais}`);
-console.log(personagem.caracteristicas.magia);
+console.log(personagem.caracteristicas);
 console.log(personagem.olhos[1]);
