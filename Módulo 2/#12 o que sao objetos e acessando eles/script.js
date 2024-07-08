@@ -17,3 +17,14 @@ personagem = {
 console.log(`${personagem.nome} tem ${personagem.idade} anos e reside no ${personagem.pais}`);
 console.log(personagem.caracteristicas);
 console.log(personagem.olhos[1]);
+
+personagem.nome = 'João';
+console.log(personagem.nome)
+
+personagem.caracteristicas.forca += 5;
+console.log(personagem.caracteristicas.forca);
+
+personagem.olhos.push('verde');
+
+console.log(personagem.olhos);
+
