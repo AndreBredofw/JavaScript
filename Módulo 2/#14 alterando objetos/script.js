@@ -8,3 +8,15 @@ let personagem = {
 }
 
 console.log(personagem.carros[1].modelo);
+
+let boneco = {
+   nome : 'Zeca',
+   idade: 21,
+   atributos: [
+      forca = 20,
+      stamina = 15,
+      velocidade = 75
+   ]
+}
+
+console.log(boneco.nome);
