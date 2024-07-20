@@ -1,4 +1,4 @@
-let fruits = ['Maçã', 'Uva', 'Banana'];
+let fruits = ['Maçã', 'Uva', 'Banana', 'Abacate'];
 
 
 for (let fruta of fruits){
