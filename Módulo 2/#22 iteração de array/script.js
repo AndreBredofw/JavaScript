@@ -1,4 +1,14 @@
 let fruits = ['Banana', 'Laranja', 'Maçã', 'Pêra'];
+ let filtragem = fruits.filter((exemplo) =>{
+    return exemplo.length < 5;
+});
+
+console.log(filtragem);
+if(fruits.includes('Laranja')){
+    console.log("Tem laranja sim!")
+}else{
+    console.log("Tem laranja não!")
+};
 
 let bigFruits = fruits.filter((item) => {
     return item.length > 4;
